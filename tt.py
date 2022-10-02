@@ -75,4 +75,4 @@ btn8.grid(row=2,column=1)
 btn9 = Button(root,font=("arial",20,"bold"),text="  ",bg="white",width=5,pady=30,command=lambda: onclick(btn9))
 btn9.grid(row=2,column=2)
 
-root.mainloop
+root.mainloop()
