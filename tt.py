@@ -54,7 +54,7 @@ def onclick(btn):
         btn["text"] = x
     checkwin()
     
-//The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways. 
+# The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways. 
 btn1 = Button(root,font=("arial",20,"bold"),text="  ",bg="white",width=5,pady=30,command=lambda: onclick(btn1))
 btn1.grid(row=0,column=0)
 btn2 = Button(root,font=("arial",20,"bold"),text="  ",bg="white",width=5,pady=30,command=lambda: onclick(btn2))
@@ -76,4 +76,4 @@ btn8.grid(row=2,column=1)
 btn9 = Button(root,font=("arial",20,"bold"),text="  ",bg="white",width=5,pady=30,command=lambda: onclick(btn9))
 btn9.grid(row=2,column=2)
 
-root.mainloop
+root.mainloop()
